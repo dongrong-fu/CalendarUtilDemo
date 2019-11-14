@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_set_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="点击设置日历"
+        android:background="#22ff0000"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_delete_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="点击删除日历"
+        android:background="#2200ff00"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_set_calendar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
